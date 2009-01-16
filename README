@@ -1,0 +1,18 @@
+rQuote
+======
+
+Gets realtime stock quotes from Yahoo Finance. 
+
+Its super simple to use.
+
+
+Example
+=======
+
+quote = Rquote.new
+quote.find("aapl", "msft") 
+
+=> [{:change=>"-4.02", :price=>"169.72", :volume=>"16105013", :symbol=>"aapl"}, {:change=>"-0.42", :price=>"27.52", :volume=>"27024456", :symbol=>"msft"}]
+
+
+Copyright (c) 2008 John Yerhot, released under the MIT license
